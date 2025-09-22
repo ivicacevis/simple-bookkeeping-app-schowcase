@@ -5,7 +5,7 @@ It includes role-based access, data validation, Croatian localization, PDF expor
 This repo is a portfolio showcase of the main features.
 
 ---
-
+https://jednostavno-knjigovodstvo.hr/
 ## ✨ Overview
 This showcase highlights a private bookkeeping project developed with Django.  
 The goal was to create a simple, secure, and user-friendly system for associations and small organizations.
