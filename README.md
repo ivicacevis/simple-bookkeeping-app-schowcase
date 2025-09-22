@@ -16,9 +16,9 @@ The goal was to create a simple, secure, and user-friendly system for associatio
 - **Backend**: Django, Django REST Framework, PostgreSQL  
 - **Async Tasks**: Celery + Redis  
 - **Server**: Daphne (ASGI) behind Nginx  
-- **Frontend**: Django Templates, Bootstrap, HTMX, DataTables  
+- **Frontend**: Django Templates, Bootstrap, DataTables  
 - **PDF Export**: WeasyPrint (HTML + Jinja → PDF)  
-- **Deployment**: Ubuntu server, `.env` configs, Gmail SMTP for emails  
+- **Deployment**: Ubuntu server, `.env` configs, 
 
 ---
 
@@ -28,20 +28,29 @@ The goal was to create a simple, secure, and user-friendly system for associatio
 - Two-factor authentication (MFA via email code)  
 - Association & Year management (active / archived)  
 - Bookkeeping modules:
-  - Cashflows (cash book)  
-  - Incomes & Outcomes (income/expense book)  
-  - In/Out Receipts  
-  - Revenues, Payins, Payouts  
-  - Assets, Travels (travel orders & expenses)  
-  - Payment Orders (HUB-3A PDF with barcode)  
+  - Knjiga blagajne  
+  - Knjiga primitaka i izdataka 
+  - Knjiga ulaznih računa / Knjiga izlaznih računa
+  - Evidencija o prihodima
+  - Uplatnice / Isplatnice
+  - Popis imovine  
+  - Putni nalozi (troškovi, vozila, putnici)  
+  - Platni nalozi (HUB-3A PDF s barkodom)  
 - Interactive tables (DataTables) with filtering & Croatian localization  
-- Dynamic CRUD with **HTMX modals**  
+- Dynamic CRUD 
 - PDF reports with localized date & number formatting (d.m.yyyy. / 1.234,56 €)  
 
 ---
 
 ## 📸 Screenshots
-> *(to be added – insert app screenshots or GIFs here to demonstrate UI and features)*
+<img width="1331" height="800" alt="image" src="https://github.com/user-attachments/assets/739cee94-a715-4b51-88e8-bff6ae5e3c2c" />
+<img width="1336" height="522" alt="image" src="https://github.com/user-attachments/assets/78428159-83c8-4440-b415-9184607f9bfa" />
+<img width="1343" height="553" alt="image" src="https://github.com/user-attachments/assets/b8a35f93-5611-4744-bd98-9dc006ce1d7f" />
+<img width="1353" height="461" alt="image" src="https://github.com/user-attachments/assets/85166f0f-4bef-42bd-b1fe-87e1f330f0b1" />
+<img width="1354" height="903" alt="image" src="https://github.com/user-attachments/assets/bc8e3058-23e3-4bb3-bfa0-40d5afdd25f4" />
+<img width="1357" height="749" alt="image" src="https://github.com/user-attachments/assets/ae796ae7-18a8-49c7-b9a2-07f05cbd9253" />
+<img width="1435" height="560" alt="image" src="https://github.com/user-attachments/assets/f838b3be-5280-4cc9-a4cc-fd26e1c8a790" />
+
 
 ---
 
@@ -50,11 +59,5 @@ The goal was to create a simple, secure, and user-friendly system for associatio
 - Benefits of **monolithic Django architecture** for maintainability  
 - Reusable approach for **modular apps** (each with forms, views, templates, JS validation)  
 - Handling **Croatian localization** for dates and numbers across frontend, backend, and exports  
-
----
-
-## 🚀 Next Steps
-- Extract reusable parts as open-source packages (e.g. PDF export utilities, Croatian decimal/date fields)  
-- Expand showcase with demo modules and example code snippets  
 
 ---
