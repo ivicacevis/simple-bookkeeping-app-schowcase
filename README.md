@@ -50,8 +50,9 @@ The goal was to create a simple, secure, and user-friendly system for associatio
 <img width="1354" height="903" alt="image" src="https://github.com/user-attachments/assets/bc8e3058-23e3-4bb3-bfa0-40d5afdd25f4" />
 <img width="1357" height="749" alt="image" src="https://github.com/user-attachments/assets/ae796ae7-18a8-49c7-b9a2-07f05cbd9253" />
 <img width="1435" height="560" alt="image" src="https://github.com/user-attachments/assets/f838b3be-5280-4cc9-a4cc-fd26e1c8a790" />
-
-
+## 📸 Knjiga primitaka i izdataka
+...
+## 📸 Knjiga ulaznih računa
 ---
 
 ## 📖 Lessons Learned
