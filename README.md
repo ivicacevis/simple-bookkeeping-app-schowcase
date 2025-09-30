@@ -53,14 +53,6 @@ The goal was to create a simple, secure, and user-friendly system for associatio
 
 ---
 
-## 📸 Knjiga primitaka i izdataka
-...
-
----
-
-## 📸 Knjiga ulaznih računa
-...
----
 
 ## 📖 Lessons Learned
 - Importance of **backend-first validation** with frontend fallbacks  
